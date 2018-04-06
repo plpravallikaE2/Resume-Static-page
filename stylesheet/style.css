@@ -126,19 +126,20 @@ li {
   font-size: 18px;
 }
 .experiences-section {
-  width: 83%;
-  background-color: white;
   margin-bottom: 30px;
   margin-left: 30px;
 		display: inline-block;
-		padding: 33px 10px;
+		padding: 23px 55px 10px 53px;
 		min-height: 50px;
 		position: relative;
 		left: -45px;
-		box-shadow: 3px 3px 8px rgba(0,0,0,.4);
 }
 .item {
-  line-height: 28px;
+  background-color: white;
+  line-height: 33px;
+  width: 100%;
+  box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+  font-size: 18px;
 }
 @media only screen and (max-width:768px) {
   .top-div-profile {
@@ -146,6 +147,13 @@ li {
     display: flex;
     flex-direction: column;
   }
+  .item {
+  background-color: white;
+  line-height: 33px;
+  width: 100%;
+  box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+  font-size: 18px;
+}
   .left-div {
     width: 80%;
     padding: 33px 0px 3px 33px;
@@ -189,4 +197,20 @@ li {
     display: flex;
     flex-direction: column;
   }
+  h1 {
+    font-size: 33px;
+    font-family: 'Oswald', sans-serif;
+    color: #0487cc;
+    text-transform: uppercase;
+  }
+  .item {
+  background-color: white;
+  line-height: 33px;
+  width: 100%;
+  box-shadow: 3px 3px 8px rgba(0,0,0,.4);
+  font-size: 18px;
+}
+.experiences-section {
+  padding: 10px 10px 10px 10px;
+}
 }
